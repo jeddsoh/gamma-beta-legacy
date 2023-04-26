@@ -13,6 +13,9 @@ module.exports = {
         'gotham-light': ['Gotham-Light', 'sans-serif'],
         'gotham-medium': ['Gotham-Medium', 'sans-serif'],
       },
+      backgroundImage: {
+        'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
+      }
     },
     container: {
       center: true,

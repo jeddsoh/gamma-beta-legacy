@@ -5,19 +5,24 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Gamma Beta | National Fraternity</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap"
-      rel="stylesheet"
-    />
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="./assets/images/gamma-beta-crest.png">
+
+    <!-- CSS -->
     <link rel="stylesheet" href="./main.css" />
   </head>
+
+  <!-- Body -->
   <body class="font-gotham-book relative text-base bg-slate-50 text-slate-950">
-    <header class="sticky top-0 z-50">
+
+    <!-- Header/Navigation -->
+    <header class="sticky top-0 z-50 shadow-sm">
       <nav
-        class="border-b border-slate-300 px-4 py-4 relative flex items-center align-middle justify-between bg-slate-50"
+        class=" px-4 py-4 relative flex items-center align-middle justify-between bg-slate-50"
       >
+
+        <!-- NavBar Logo -->
         <a href="index.html">
           <div class="flex items-center">
             <img
@@ -27,7 +32,7 @@
             />
             <div class="flex-col gap-4">
               <p
-                class="text-xl tracking-tight leading-none uppercase font-gotham-black"
+                class="text-xl text-slate-900 tracking-tight leading-none uppercase font-gotham-medium"
               >
                 Gamma Beta
               </p>
@@ -39,23 +44,30 @@
             </div>
           </div>
         </a>
+
+        <!-- Nav Links -->
         <ul
-          class="text-base absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-slate-700 flex gap-4"
+          class="text-base absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-slate-700 flex gap-2"
         >
-          <li class="transition-all hover:text-slate-950"><a href="#">Home</a></li>
-          <li class="transition-all hover:text-slate-950"><a href="#">About</a></li>
-          <li class="transition-all hover:text-slate-950"><a href="#">Chapters</a></li>
-          <li class="transition-all hover:text-slate-950"><a href="#">Join</a></li>
-          <li class="transition-all hover:text-slate-950"><a href="#">Contact</a></li>
+          <li><a class="transition-all hover:bg-slate-200 rounded-md px-2 py-2" href="#">Home</a></li>
+          <li><a class="transition-all hover:bg-slate-200 rounded-md px-2 py-2" href="#">About</a></li>
+          <li><a class="transition-all hover:bg-slate-200 rounded-md px-2 py-2" href="#">Chapters</a></li>
+          <li><a class="transition-all hover:bg-slate-200 rounded-md px-2 py-2" href="#">Join</a></li>
+          <li><a class="transition-all hover:bg-slate-200 rounded-md px-2 py-2" href="#">Contact</a></li>
         </ul>
-        <button
-          class="text-slate-50 transition-all hover:text-slate-950 text-base bg-slate-950 hover:bg-slate-50 border hover:border hover:border-slate-300 px-4 py-2 rounded-lg shadow-sm"
+
+        <!-- NavBar Button -->
+        <a href="" class="text-slate-50 transition-all hover:text-slate-950 text-base bg-slate-950 hover:bg-slate-50 border hover:border hover:border-slate-300 px-4 py-2 rounded-lg shadow-sm"
         >
           How to Join
-        </button>
+        </a>
       </nav>
     </header>
+
+    <!-- Main -->
     <main class="z-10">
+
+    <!-- Hero Section -->  
     <section id="hero" class="bg-slate-100 border-b border-slate-300">
       <div class="py-24">
         <div class="flex flex-col items-center text-center container">
@@ -70,16 +82,295 @@
             spanning six college campuses across Texas and Oklahoma.
           </p>
           <div class="flex flex-col lg:flex-row w-full gap-4 justify-center mt-6">
-            <button
+            <a href=""
               class="text-slate-50 transition-all hover:text-slate-950 text-base bg-slate-950 hover:bg-slate-50 border hover:border hover:border-slate-300 px-5 py-3 rounded-lg shadow-sm"
             >
             Join Gamma Beta
-            </button>
-            <button
+          </a>
+            <a href=""
               class="text-base text-slate-700 transition-all bg-slate-50 px-5 py-3 rounded-lg border border-slate-300 hover:border-slate-400"
             >
               Contact Us
-            </button>
+        </a>
+          </div>
+        </div>
+        <div class="mt-20 overflow-hidden">
+
+        <!-- First Row of Images -->
+        <div class="flex flex-row gap-6">
+          <img class="max-h-80 rounded-lg shadow-md border border-slate-300" src="./assets/images/texas-summer.jpg" alt="">
+          <img class="max-h-80 rounded-lg shadow-md border border-slate-300" src="./assets/images/alpha-lamba-class.jpeg" alt="">
+          <img class="max-h-80 rounded-lg shadow-md border border-slate-300" src="./assets/images/alpha-psi.jpg" alt="">
+          <img class="max-h-80 rounded-lg shadow-md border border-slate-300" src="./assets/images/gb-shirts.jpeg" alt="">
+        </div>
+
+         <!-- Second Row of Images -->
+        <div class="flex flex-row gap-6 mt-6">
+          <img class="max-h-80 rounded-lg shadow-md border border-slate-300" src="./assets/images/oklahoma-quartet.jpg" alt="">
+          <img class="max-h-80 rounded-lg shadow-md border border-slate-300" src="./assets/images/formal-signs.jpg" alt="">
+          <img class="max-h-80 rounded-lg shadow-md border border-slate-300" src="./assets/images/texas-summer.jpg" alt="">
+          <img class="max-h-80 rounded-lg shadow-md border border-slate-300" src="./assets/images/alpha-psi.jpg" alt="">
+          <img class="max-h-80 rounded-lg shadow-md border border-slate-300" src="./assets/images/gb-shirts.jpeg" alt="">
+        </div>
+      </div>
+    </div>
+    </section>
+
+    <!-- Chapters Section -->
+    <section id="chapters" class="border-b border-slate-300">
+        <div class="py-24 container">
+          <div class="flex flex-col items-center text-center">
+            <h2 class="mt-4 font-gotham-ultra text-4xl lg:text-5xl uppercase max-w-2xl">A Brotherhood Spanning 6 Campuses</h1>
+            <p class="max-w-3xl mt-4 text-slate-700">
+                Our fraternity has six locations across Texas and Oklahoma. We are committed to expanding our reach to other universities and welcoming new members into our brotherhood.
+            </p>
+            <div class="flex flex-row gap-4 justify-center mt-6">
+            </div>
+          </div>
+
+          <!-- List of Chapters -->
+          <ul class="max-w-6xl mx-auto flex flex-col gap-4 lg:gap-6 lg:grid grid-cols-3 mt-6">
+            <li class="bg-slate-100 border border-slate-200 hover:border-slate-400 transition-all rounded-lg relative">
+              <a class="flex flex-row justify-between p-6" href="">
+                <div class="flex flex-row lg:block lg:items-start lg:justify-between gap-4 items-center">
+                  <img class="w-14 lg:w-16" src="./assets/images/ut-austin.png" alt="longhorn logo">
+                  <div class="lg:mt-12">
+                    <p class="font-gotham-medium tracking-wide uppercase  text-[12px] lg:text-[14px] text-slate-700">Alpha Chapter</p>
+                <h3 class="font-gotham-medium text-lg lg:text-xl leading-none">UT – Austin</h3>
+                  </div>
+                </div>
+                <svg class="lg:absolute w-6 text-slate-950 lg:top-[24px] lg:right-[24px]" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M17.25 8.25L21 12m0 0l-3.75 3.75M21 12H3" />
+                </svg>
+              </a>
+            </li>
+            <li class="bg-slate-100 border border-slate-200 hover:border-slate-400 transition-all rounded-lg relative">
+              <a class="flex flex-row justify-between p-6" href="">
+                <div class="flex flex-row lg:block lg:items-start lg:justify-between gap-4 items-center">
+                  <img class="w-14 lg:w-16" src="./assets/images/texas-tech.png" alt="Texas Tech">
+                  <div class="lg:mt-12">
+                    <p class="font-gotham-medium tracking-wide uppercase  text-[12px] lg:text-[14px] text-slate-700">Beta Chapter</p>
+                <h3 class="font-gotham-medium text-lg lg:text-xl leading-none">Texas Tech University</h3>
+                  </div>
+                </div>
+                <svg class="lg:absolute w-6 text-slate-950 lg:top-[24px] lg:right-[24px]" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M17.25 8.25L21 12m0 0l-3.75 3.75M21 12H3" />
+                </svg>
+              </a>
+            </li>
+            <li class="bg-slate-100 border border-slate-200 hover:border-slate-400 transition-all rounded-lg relative">
+              <a class="flex flex-row justify-between p-6" href="">
+                <div class="flex flex-row lg:block lg:items-start lg:justify-between gap-4 items-center">
+                  <img class="w-14 lg:w-16" src="./assets/images/texas-a&m.png" alt="Texas A&M logo">
+                  <div class="lg:mt-12">
+                    <p class="font-gotham-medium tracking-wide uppercase  text-[12px] lg:text-[14px] text-slate-700">Gamma Chapter</p>
+                <h3 class="font-gotham-medium text-lg lg:text-xl leading-none">Texas A&M University</h3>
+                  </div>
+                </div>
+                <svg class="lg:absolute w-6 text-slate-950 lg:top-[24px] lg:right-[24px]" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M17.25 8.25L21 12m0 0l-3.75 3.75M21 12H3" />
+                </svg>
+              </a>
+            </li>
+            <li class="bg-slate-100 border border-slate-200 hover:border-slate-400 transition-all rounded-lg relative">
+              <a class="flex flex-row justify-between p-6" href="">
+                <div class="flex flex-row lg:block lg:items-start lg:justify-between gap-4 items-center">
+                  <img class="w-14 lg:w-16" src="./assets/images/oklahoma.png" alt="OU logo">
+                  <div class="lg:mt-12">
+                    <p class="font-gotham-medium tracking-wide uppercase  text-[12px] lg:text-[14px] text-slate-700">Delta Chapter</p>
+                <h3 class="font-gotham-medium text-lg lg:text-xl leading-none">University of Oklahoma</h3>
+                  </div>
+                </div>
+                <svg class="lg:absolute w-6 text-slate-950 lg:top-[24px] lg:right-[24px]" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M17.25 8.25L21 12m0 0l-3.75 3.75M21 12H3" />
+                </svg>
+              </a>
+            </li>
+            <li class="bg-slate-100 border border-slate-200 hover:border-slate-400 transition-all rounded-lg relative">
+              <a class="flex flex-row justify-between p-6" href="">
+                <div class="flex flex-row lg:block lg:items-start lg:justify-between gap-4 items-center">
+                  <img class="w-14 lg:w-16" src="./assets/images/utsa.png" alt="UTSA logo">
+                  <div class="lg:mt-12">
+                    <p class="font-gotham-medium tracking-wide uppercase  text-[12px] lg:text-[14px] text-slate-700">Epsilon Chapter</p>
+                <h3 class="font-gotham-medium text-lg lg:text-xl leading-none">UT – San Antonio</h3>
+                  </div>
+                </div>
+                <svg class="lg:absolute w-6 text-slate-950 lg:top-[24px] lg:right-[24px]" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M17.25 8.25L21 12m0 0l-3.75 3.75M21 12H3" />
+                </svg>
+              </a>
+            </li>
+            <li class="bg-slate-100 border border-slate-200 hover:border-slate-400 transition-all rounded-lg relative">
+              <a class="flex flex-row justify-between p-6" href="">
+                <div class="flex flex-row lg:block lg:items-start lg:justify-between gap-4 items-center">
+                  <img class="w-14 lg:w-16" src="./assets/images/houston.png" alt="UH logo">
+                  <div class="lg:mt-12">
+                    <p class="font-gotham-medium tracking-wide uppercase  text-[12px] lg:text-[14px] text-slate-700">Zeta Chapter</p>
+                <h3 class="font-gotham-medium text-lg lg:text-xl leading-none">University of Houston</h3>
+                  </div>
+                </div>
+                <svg class="lg:absolute w-6 text-slate-950 lg:top-[24px] lg:right-[24px]" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M17.25 8.25L21 12m0 0l-3.75 3.75M21 12H3" />
+                </svg>
+              </a>
+            </li>
+        </ul>
+      </div>
+      </section>
+
+      <!-- About Section -->
+      <section id="about" class="border-b border-slate-300 bg-slate-100">
+        <div class="py-24 container">
+          <div class="flex flex-col items-center text-center">
+            <h2 class="mt-4 font-gotham-ultra text-4xl lg:text-5xl uppercase max-w-2xl">What is Gamma Beta?</h1>
+            <p class="max-w-3xl mt-4 text-slate-700">
+              Gamma Beta Fraternity was founded in 2000 at UT-Austin. Our nine founders sought to create an unparalleled brotherhood guided by the best of our morals, ideals, and culture.
+            </p>
+            <a href=""
+              class="text-base bg-slate-50 px-4 py-2 rounded-lg border border-slate-300 hover:border-slate-950 mt-6"
+            >
+              Learn more
+          </a>
+          </div>
+
+          <!-- Grid of Features -->
+          <div class="mt-10 flex flex-col gap-4 lg:grid lg:grid-cols-3 max-w-6xl mx-auto">
+
+            <!-- Lifelong Brothers Block -->
+            <div class="border border-slate-200 bg-slate-50 rounded-lg overflow-hidden">
+              <img class="w-full object-cover" src="" alt="">
+            <div class="p-6">
+              <div class="flex">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M18 18.72a9.094 9.094 0 003.741-.479 3 3 0 00-4.682-2.72m.94 3.198l.001.031c0 .225-.012.447-.037.666A11.944 11.944 0 0112 21c-2.17 0-4.207-.576-5.963-1.584A6.062 6.062 0 016 18.719m12 0a5.971 5.971 0 00-.941-3.197m0 0A5.995 5.995 0 0012 12.75a5.995 5.995 0 00-5.058 2.772m0 0a3 3 0 00-4.681 2.72 8.986 8.986 0 003.74.477m.94-3.197a5.971 5.971 0 00-.94 3.197M15 6.75a3 3 0 11-6 0 3 3 0 016 0zm6 3a2.25 2.25 0 11-4.5 0 2.25 2.25 0 014.5 0zm-13.5 0a2.25 2.25 0 11-4.5 0 2.25 2.25 0 014.5 0z" />
+                </svg>
+                <h3 class="font-gotham-medium ml-3">Lifelong Brothers</h3>
+              </div>
+              <p class="text-sm mt-2 leading-6">Achieve more in a community of close friends offering support and encouragement.</p>
+            </div>
+          </div>
+
+          <!-- Professional Network Block -->
+          <div class="border border-slate-200 bg-slate-50 rounded-lg overflow-hidden">
+            <img class="w-full object-cover" src="" alt="">
+          <div class="p-6">
+            <div class="flex">
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M20.25 14.15v4.25c0 1.094-.787 2.036-1.872 2.18-2.087.277-4.216.42-6.378.42s-4.291-.143-6.378-.42c-1.085-.144-1.872-1.086-1.872-2.18v-4.25m16.5 0a2.18 2.18 0 00.75-1.661V8.706c0-1.081-.768-2.015-1.837-2.175a48.114 48.114 0 00-3.413-.387m4.5 8.006c-.194.165-.42.295-.673.38A23.978 23.978 0 0112 15.75c-2.648 0-5.195-.429-7.577-1.22a2.016 2.016 0 01-.673-.38m0 0A2.18 2.18 0 013 12.489V8.706c0-1.081.768-2.015 1.837-2.175a48.111 48.111 0 013.413-.387m7.5 0V5.25A2.25 2.25 0 0013.5 3h-3a2.25 2.25 0 00-2.25 2.25v.894m7.5 0a48.667 48.667 0 00-7.5 0M12 12.75h.008v.008H12v-.008z" />
+              </svg>
+              
+              <h3 class="font-gotham-medium ml-3">Professional Network</h3>
+            </div>
+            <p class="text-sm mt-2 leading-6">Achieve more in a community of close friends offering support and encouragement.</p>
+          </div>
+        </div>
+
+        <!-- Personal Growth Block -->
+        <div class="border border-slate-200 bg-slate-50 rounded-lg overflow-hidden">
+          <img class="w-full object-cover" src="" alt="">
+        <div class="p-6">
+          <div class="flex">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M15.59 14.37a6 6 0 01-5.84 7.38v-4.8m5.84-2.58a14.98 14.98 0 006.16-12.12A14.98 14.98 0 009.631 8.41m5.96 5.96a14.926 14.926 0 01-5.841 2.58m-.119-8.54a6 6 0 00-7.381 5.84h4.8m2.581-5.84a14.927 14.927 0 00-2.58 5.84m2.699 2.7c-.103.021-.207.041-.311.06a15.09 15.09 0 01-2.448-2.448 14.9 14.9 0 01.06-.312m-2.24 2.39a4.493 4.493 0 00-1.757 4.306 4.493 4.493 0 004.306-1.758M16.5 9a1.5 1.5 0 11-3 0 1.5 1.5 0 013 0z" />
+            </svg>
+            
+            <h3 class="font-gotham-medium ml-3">Personal Growth</h3>
+          </div>
+          <p class="text-sm mt-2 leading-6">Achieve more in a community of close friends offering support and encouragement.</p>
+        </div>
+      </div>
+      <div class="border border-slate-200 bg-slate-50 rounded-lg overflow-hidden">
+        <img class="w-full object-cover" src="" alt="">
+      <div class="p-6">
+        <div class="flex">
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M18 18.72a9.094 9.094 0 003.741-.479 3 3 0 00-4.682-2.72m.94 3.198l.001.031c0 .225-.012.447-.037.666A11.944 11.944 0 0112 21c-2.17 0-4.207-.576-5.963-1.584A6.062 6.062 0 016 18.719m12 0a5.971 5.971 0 00-.941-3.197m0 0A5.995 5.995 0 0012 12.75a5.995 5.995 0 00-5.058 2.772m0 0a3 3 0 00-4.681 2.72 8.986 8.986 0 003.74.477m.94-3.197a5.971 5.971 0 00-.94 3.197M15 6.75a3 3 0 11-6 0 3 3 0 016 0zm6 3a2.25 2.25 0 11-4.5 0 2.25 2.25 0 014.5 0zm-13.5 0a2.25 2.25 0 11-4.5 0 2.25 2.25 0 014.5 0z" />
+          </svg>
+          <h3 class="font-gotham-medium ml-3">Lifelong Brothers</h3>
+        </div>
+        <p class="text-sm mt-2 leading-6">Achieve more in a community of close friends offering support and encouragement.</p>
+      </div>
+    </div>
+    <div class="border border-slate-200 bg-slate-50 rounded-lg overflow-hidden">
+      <img class="w-full object-cover" src="" alt="">
+    <div class="p-6">
+      <div class="flex">
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+          <path stroke-linecap="round" stroke-linejoin="round" d="M18 18.72a9.094 9.094 0 003.741-.479 3 3 0 00-4.682-2.72m.94 3.198l.001.031c0 .225-.012.447-.037.666A11.944 11.944 0 0112 21c-2.17 0-4.207-.576-5.963-1.584A6.062 6.062 0 016 18.719m12 0a5.971 5.971 0 00-.941-3.197m0 0A5.995 5.995 0 0012 12.75a5.995 5.995 0 00-5.058 2.772m0 0a3 3 0 00-4.681 2.72 8.986 8.986 0 003.74.477m.94-3.197a5.971 5.971 0 00-.94 3.197M15 6.75a3 3 0 11-6 0 3 3 0 016 0zm6 3a2.25 2.25 0 11-4.5 0 2.25 2.25 0 014.5 0zm-13.5 0a2.25 2.25 0 11-4.5 0 2.25 2.25 0 014.5 0z" />
+        </svg>
+        <h3 class="font-gotham-medium ml-3">Lifelong Brothers</h3>
+      </div>
+      <p class="text-sm mt-2 leading-6">Achieve more in a community of close friends offering support and encouragement.</p>
+    </div>
+  </div>
+  <div class="border border-slate-200 bg-slate-50 rounded-lg overflow-hidden">
+    <img class="w-full object-cover" src="" alt="">
+  <div class="p-6">
+    <div class="flex">
+      <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+        <path stroke-linecap="round" stroke-linejoin="round" d="M18 18.72a9.094 9.094 0 003.741-.479 3 3 0 00-4.682-2.72m.94 3.198l.001.031c0 .225-.012.447-.037.666A11.944 11.944 0 0112 21c-2.17 0-4.207-.576-5.963-1.584A6.062 6.062 0 016 18.719m12 0a5.971 5.971 0 00-.941-3.197m0 0A5.995 5.995 0 0012 12.75a5.995 5.995 0 00-5.058 2.772m0 0a3 3 0 00-4.681 2.72 8.986 8.986 0 003.74.477m.94-3.197a5.971 5.971 0 00-.94 3.197M15 6.75a3 3 0 11-6 0 3 3 0 016 0zm6 3a2.25 2.25 0 11-4.5 0 2.25 2.25 0 014.5 0zm-13.5 0a2.25 2.25 0 11-4.5 0 2.25 2.25 0 014.5 0z" />
+      </svg>
+      <h3 class="font-gotham-medium ml-3">Lifelong Brothers</h3>
+    </div>
+    <p class="text-sm mt-2 leading-6">Achieve more in a community of close friends offering support and encouragement.</p>
+  </div>
+</div>
+<div class="border border-slate-200 bg-slate-50 rounded-lg overflow-hidden">
+  <img class="w-full object-cover" src="" alt="">
+<div class="p-6">
+  <div class="flex">
+    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+      <path stroke-linecap="round" stroke-linejoin="round" d="M18 18.72a9.094 9.094 0 003.741-.479 3 3 0 00-4.682-2.72m.94 3.198l.001.031c0 .225-.012.447-.037.666A11.944 11.944 0 0112 21c-2.17 0-4.207-.576-5.963-1.584A6.062 6.062 0 016 18.719m12 0a5.971 5.971 0 00-.941-3.197m0 0A5.995 5.995 0 0012 12.75a5.995 5.995 0 00-5.058 2.772m0 0a3 3 0 00-4.681 2.72 8.986 8.986 0 003.74.477m.94-3.197a5.971 5.971 0 00-.94 3.197M15 6.75a3 3 0 11-6 0 3 3 0 016 0zm6 3a2.25 2.25 0 11-4.5 0 2.25 2.25 0 014.5 0zm-13.5 0a2.25 2.25 0 11-4.5 0 2.25 2.25 0 014.5 0z" />
+    </svg>
+    <h3 class="font-gotham-medium ml-3">Lifelong Brothers</h3>
+  </div>
+  <p class="text-sm mt-2 leading-6">Achieve more in a community of close friends offering support and encouragement.</p>
+</div>
+</div>
+<div class="border border-slate-200 bg-slate-50 rounded-lg overflow-hidden">
+  <img class="w-full object-cover" src="" alt="">
+<div class="p-6">
+  <div class="flex">
+    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+      <path stroke-linecap="round" stroke-linejoin="round" d="M18 18.72a9.094 9.094 0 003.741-.479 3 3 0 00-4.682-2.72m.94 3.198l.001.031c0 .225-.012.447-.037.666A11.944 11.944 0 0112 21c-2.17 0-4.207-.576-5.963-1.584A6.062 6.062 0 016 18.719m12 0a5.971 5.971 0 00-.941-3.197m0 0A5.995 5.995 0 0012 12.75a5.995 5.995 0 00-5.058 2.772m0 0a3 3 0 00-4.681 2.72 8.986 8.986 0 003.74.477m.94-3.197a5.971 5.971 0 00-.94 3.197M15 6.75a3 3 0 11-6 0 3 3 0 016 0zm6 3a2.25 2.25 0 11-4.5 0 2.25 2.25 0 014.5 0zm-13.5 0a2.25 2.25 0 11-4.5 0 2.25 2.25 0 014.5 0z" />
+    </svg>
+    <h3 class="font-gotham-medium ml-3">Lifelong Brothers</h3>
+  </div>
+  <p class="text-sm mt-2 leading-6">Achieve more in a community of close friends offering support and encouragement.</p>
+</div>
+</div>
+      </div>
+      <button class="transition-all hover:bg-slate-200 rounded-lg py-2 px-4 mt-8 flex justify-center mx-auto">Read about our history<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 ml-2">
+        <path stroke-linecap="round" stroke-linejoin="round" d="M17.25 8.25L21 12m0 0l-3.75 3.75M21 12H3" />
+      </svg>
+      </button>
+      </section>
+
+    <!-- LDPsi Section -->  
+    <section id="lambda-delta-psi" class="bg-slate-50 border-b border-slate-300">
+      <div class="py-24">
+        <div class="flex flex-col items-center text-center container">
+            <img
+              class="h-20"
+              src="assets/images/lambda-delta-psi-crest.png"
+              alt="gamma-beta-crest"
+            />
+          <h2 class="mt-4 font-gotham-ultra text-4xl lg:text-6xl uppercase">Meet Our Sisters</h1>
+          <p class="max-w-2xl mt-4 text-slate-700">
+            Our sister sorority, <span class="font-gotham-medium">Lambda Delta Psi</span>, shares our commitment to personal growth and community service. As sibling organizations, we support each other to make a positive impact on campus and beyond.
+          </p>
+          <div class="flex flex-col lg:flex-row w-full gap-4 justify-center mt-6">
+            
+            <a href="https://www.lambdadeltapsi.org/" target="_blank"
+              class="text-base text-slate-700 transition-all bg-slate-50 px-5 py-3 rounded-lg border border-slate-300 hover:border-slate-400 flex flex-row gap-2 items-center justify-center"
+            >
+              Visit their website
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="w-5 h-5">
+                <path fill-rule="evenodd" d="M4.25 5.5a.75.75 0 00-.75.75v8.5c0 .414.336.75.75.75h8.5a.75.75 0 00.75-.75v-4a.75.75 0 011.5 0v4A2.25 2.25 0 0112.75 17h-8.5A2.25 2.25 0 012 14.75v-8.5A2.25 2.25 0 014.25 4h5a.75.75 0 010 1.5h-5z" clip-rule="evenodd" />
+                <path fill-rule="evenodd" d="M6.194 12.753a.75.75 0 001.06.053L16.5 4.44v2.81a.75.75 0 001.5 0v-4.5a.75.75 0 00-.75-.75h-4.5a.75.75 0 000 1.5h2.553l-9.056 8.194a.75.75 0 00-.053 1.06z" clip-rule="evenodd" />
+              </svg>
+              
+            </a>
           </div>
         </div>
         <div class="mt-20 overflow-hidden">
@@ -100,119 +391,99 @@
       </div>
     </div>
     </section>
-    <section id="chapters" class="border-b border-slate-300">
-        <div class="py-24 container">
-          <div class="flex flex-col items-center text-center">
-            <h2 class="mt-4 font-gotham-ultra text-4xl lg:text-5xl uppercase max-w-2xl">A Brotherhood Spanning 6 Campuses</h1>
-            <p class="max-w-3xl mt-4 text-slate-700">
-                Our fraternity has six locations across Texas and Oklahoma. We are committed to expanding our reach to other universities and welcoming new members into our brotherhood.
-            </p>
-            <div class="flex flex-row gap-4 justify-center mt-6">
+
+    <!-- Join Section -->  
+    <section id="join" class="bg-[radial-gradient(ellipse_at_bottom,_var(--tw-gradient-stops))] from-sky-800 via-sky-950 to-slate-950 text-slate-50">
+      <div class="py-24">
+        <div class="flex flex-col items-center text-center container">
+          <h2 class="mt-4 font-gotham-ultra text-4xl lg:text-6xl uppercase">Join Gamma Beta</h1>
+          <p class="max-w-lg mt-4 text-slate-200">
+            Join our fraternity and become a part of a legacy that is committed to Making Good Men Better. 
+          </p>
+          <div class="flex flex-col lg:flex-row w-full gap-4 justify-center mt-6">
+            
+            <a href=""
+              class="text-base text-slate-50 transition-all bg-sky-500 hover:bg-slate-950 px-5 py-3 rounded-lg flex flex-row gap-2 items-center justify-center"
+            >
+              How to Join    
+            </a>
+          </div>
+        </div>
+    </div>
+    </section>
+
+        <!-- Footer Section -->  
+        <section id="join" class="bg-slate-50 text-slate-950">
+          <div class="pt-24 pb-8">
+            <div class="flex flex-col lg:flex-row container gap-12 lg:gap-32 lg: relative">
+              
+            <!-- Footer Logo -->
+        <a href="index.html">
+          <div class="flex flex-row">
+            <img
+              class="h-14"
+              src="assets/images/gamma-beta-crest.png"
+              alt="gamma-beta-crest"
+            />
+            <div class="flex flex-col justify-center">
+              <p
+                class="text-2xl text-slate-900 tracking-tight leading-none uppercase font-gotham-medium"
+              >
+                Gamma Beta
+              </p>
+              <p
+                class="text-[14px] mt-[2px] leading-none tracking-wide uppercase"
+              >
+                National Fraternity
+              </p>
             </div>
           </div>
-          <ul class="flex flex-col gap-4 lg:gap-6 lg:grid grid-cols-3 mt-6">
-            <li class="bg-slate-100 border border-slate-200 hover:border-slate-400 transition-all rounded-lg relative">
-              <a class="flex flex-row justify-between p-6" href="">
-                <div class="flex flex-row lg:block lg:items-start lg:justify-between gap-4 items-center">
-                  <img class="w-14 lg:w-16" src="./assets/images/ut-austin.png" alt="longhorn logo">
-                  <div class="lg:mt-12">
-                    <p class="font-gotham-medium tracking-wide uppercase  text-[12px] lg:text-[14px]">Alpha Chapter</p>
-                <h3 class="font-gotham-medium text-lg lg:text-xl leading-none">UT – Austin</h3>
-                  </div>
-                </div>
-                <svg class="lg:absolute w-6 text-slate-950 lg:top-[24px] lg:right-[24px]" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
-                  <path stroke-linecap="round" stroke-linejoin="round" d="M17.25 8.25L21 12m0 0l-3.75 3.75M21 12H3" />
-                </svg>
-              </a>
-            </li>
-            <li class="bg-slate-100 border border-slate-200 hover:border-slate-400 transition-all rounded-lg relative">
-              <a class="flex flex-row justify-between p-6" href="">
-                <div class="flex flex-row lg:block lg:items-start lg:justify-between gap-4 items-center">
-                  <img class="w-14 lg:w-16" src="./assets/images/texas-tech.png" alt="Texas Tech">
-                  <div class="lg:mt-12">
-                    <p class="font-gotham-medium tracking-wide uppercase  text-[12px] lg:text-[14px]">Beta Chapter</p>
-                <h3 class="font-gotham-medium text-lg lg:text-xl leading-none">Texas Tech University</h3>
-                  </div>
-                </div>
-                <svg class="lg:absolute w-6 text-slate-950 lg:top-[24px] lg:right-[24px]" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
-                  <path stroke-linecap="round" stroke-linejoin="round" d="M17.25 8.25L21 12m0 0l-3.75 3.75M21 12H3" />
-                </svg>
-              </a>
-            </li>
-            <li class="bg-slate-100 border border-slate-200 hover:border-slate-400 transition-all rounded-lg relative">
-              <a class="flex flex-row justify-between p-6" href="">
-                <div class="flex flex-row lg:block lg:items-start lg:justify-between gap-4 items-center">
-                  <img class="w-14 lg:w-16" src="./assets/images/texas-a&m.png" alt="Texas A&M logo">
-                  <div class="lg:mt-12">
-                    <p class="font-gotham-medium tracking-wide uppercase  text-[12px] lg:text-[14px]">Gamma Chapter</p>
-                <h3 class="font-gotham-medium text-lg lg:text-xl leading-none">Texas A&M University</h3>
-                  </div>
-                </div>
-                <svg class="lg:absolute w-6 text-slate-950 lg:top-[24px] lg:right-[24px]" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
-                  <path stroke-linecap="round" stroke-linejoin="round" d="M17.25 8.25L21 12m0 0l-3.75 3.75M21 12H3" />
-                </svg>
-              </a>
-            </li>
-            <li class="bg-slate-100 border border-slate-200 hover:border-slate-400 transition-all rounded-lg relative">
-              <a class="flex flex-row justify-between p-6" href="">
-                <div class="flex flex-row lg:block lg:items-start lg:justify-between gap-4 items-center">
-                  <img class="w-14 lg:w-16" src="./assets/images/oklahoma.png" alt="OU logo">
-                  <div class="lg:mt-12">
-                    <p class="font-gotham-medium tracking-wide uppercase  text-[12px] lg:text-[14px]">Delta Chapter</p>
-                <h3 class="font-gotham-medium text-lg lg:text-xl leading-none">University of Oklahoma</h3>
-                  </div>
-                </div>
-                <svg class="lg:absolute w-6 text-slate-950 lg:top-[24px] lg:right-[24px]" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
-                  <path stroke-linecap="round" stroke-linejoin="round" d="M17.25 8.25L21 12m0 0l-3.75 3.75M21 12H3" />
-                </svg>
-              </a>
-            </li>
-            <li class="bg-slate-100 border border-slate-200 hover:border-slate-400 transition-all rounded-lg relative">
-              <a class="flex flex-row justify-between p-6" href="">
-                <div class="flex flex-row lg:block lg:items-start lg:justify-between gap-4 items-center">
-                  <img class="w-14 lg:w-16" src="./assets/images/utsa.png" alt="UTSA logo">
-                  <div class="lg:mt-12">
-                    <p class="font-gotham-medium tracking-wide uppercase  text-[12px] lg:text-[14px]">Epsilon Chapter</p>
-                <h3 class="font-gotham-medium text-lg lg:text-xl leading-none">UT – San Antonio</h3>
-                  </div>
-                </div>
-                <svg class="lg:absolute w-6 text-slate-950 lg:top-[24px] lg:right-[24px]" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
-                  <path stroke-linecap="round" stroke-linejoin="round" d="M17.25 8.25L21 12m0 0l-3.75 3.75M21 12H3" />
-                </svg>
-              </a>
-            </li>
-            <li class="bg-slate-100 border border-slate-200 hover:border-slate-400 transition-all rounded-lg relative">
-              <a class="flex flex-row justify-between p-6" href="">
-                <div class="flex flex-row lg:block lg:items-start lg:justify-between gap-4 items-center">
-                  <img class="w-14 lg:w-16" src="./assets/images/houston.png" alt="UH logo">
-                  <div class="lg:mt-12">
-                    <p class="font-gotham-medium tracking-wide uppercase  text-[12px] lg:text-[14px]">Zeta Chapter</p>
-                <h3 class="font-gotham-medium text-lg lg:text-xl leading-none">University of Houston</h3>
-                  </div>
-                </div>
-                <svg class="lg:absolute w-6 text-slate-950 lg:top-[24px] lg:right-[24px]" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
-                  <path stroke-linecap="round" stroke-linejoin="round" d="M17.25 8.25L21 12m0 0l-3.75 3.75M21 12H3" />
-                </svg>
-              </a>
-            </li>
+        </a>
+
+        <!-- Footer NavLinks Group -->
+        <ul class="flex flex-col gap-4">
+          <h3 class="font-gotham-medium">Pages</h3>
+          <li><a href="">Home</a></li>
+          <li><a href="">About</a></li>
+          <li><a href="">Contact</a></li>
+          <li><a href="">Join</a></li>
         </ul>
-      </div>
-      </section>
-      <section id="about" class="border-b border-slate-300 bg-slate-100">
-        <div class="py-24 container">
-          <div class="flex flex-col items-center text-center">
-            <h2 class="mt-4 font-gotham-ultra text-5xl uppercase max-w-2xl">What is Gamma Beta?</h1>
-            <p class="max-w-3xl mt-4 text-slate-700">
-              Gamma Beta Fraternity was founded in 2000 at UT-Austin. Our nine founders sought to create an unparalleled brotherhood guided by the best of our morals, ideals, and culture.
-            </p>
-            <button
-              class="text-base bg-slate-50 px-4 py-2 rounded-lg border border-slate-300 hover:border-slate-950 mt-6"
-            >
-              Learn more
-            </button>
-          </div>
-      </div>
-      </section>
+
+        <!-- Footer NavLinks Group -->
+        <ul class="flex flex-col gap-4">
+          <h3 class="font-gotham-medium">Chapters</h3>
+          <li><a href="">UT - Austin</a></li>
+          <li><a href="">Texas Tech University</a></li>
+          <li><a href="">Texas A&M University</a></li>
+          <li><a href="">University of Oklahoma</a></li>
+          <li><a href="">UT - San Antonio</a></li>
+          <li><a href="">University of Houston</a></li>
+
+        </ul>
+
+        <!-- Footer NavLinks Group -->
+        <ul class="flex flex-col gap-4">
+          <h3 class="font-gotham-medium">Connect</h3>
+          <li><a href="">Instagram</a></li>
+          <li><a href="">Facebook</a></li>
+          <li><a href="">LinkedIn</a></li>
+          <li><a href="">GitHub</a></li>
+        </ul>
+
+        <!-- Footer NavLinks Group -->
+        <ul class="flex flex-col gap-4">
+          <h3 class="font-gotham-medium">Legal</h3>
+          <li><a href="">Privacy Policy</a></li>
+          <li><a href="">Cookies Preferences</a></li>
+        </ul>
+
+              
+            </div>
+
+        <div class="container mt-24"><p><p class="text-sm text-slate-700">© 2023. Gamma Beta National Fraternity, Inc. All rights reserved.</p></p></div>
+        </div>
+        </section>
+
     </main>
   </body>
 </html>
