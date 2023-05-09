@@ -5,13 +5,8 @@ module.exports = {
   ],
   theme: {
     extend: {
-      fontFamily:  {
-        'gotham-ultra': ['Gotham-Ultra', 'sans-serif'],
-        'gotham-black': ['Gotham-Black', 'sans-serif'],
-        'gotham-bold': ['Gotham-Bold', 'sans-serif'],
-        'gotham-book': ['Gotham-Book', 'sans-serif'],
-        'gotham-light': ['Gotham-Light', 'sans-serif'],
-        'gotham-medium': ['Gotham-Medium', 'sans-serif'],
+      fontFamily: {
+        'inter': ['Inter', 'sans-serif'],
       },
       backgroundImage: {
         'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
@@ -22,5 +17,4 @@ module.exports = {
       padding: '2rem',
     },
   },
-  plugins: [],
 }
